@@ -11,9 +11,9 @@ typedef struct led {
     u8  Status;
 }LED;
 
-// void LED_voidInitLED(u8 PortName, u8 PinNumber);
-// kfdjoid
+void LED_voidInitLED(u8 PortName, u8 PinNumber);
 void LED_voidSetLEDstatus(u8 PortName, u8 PinNumber, u8 LEDstatus);
+
 
 void LED_InitLED(LED * Ps_Led);
 void LED_SetLEDstatus(LED * Ps_Led);
