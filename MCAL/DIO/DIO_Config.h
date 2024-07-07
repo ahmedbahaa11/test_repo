@@ -10,6 +10,7 @@
 #define DIO_CONFIG_H_
 
 
+#define D 1
 
 
 
